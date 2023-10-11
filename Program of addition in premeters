@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int man, sam, local, nid, kis;
+int saq(int add, int sub){
+// these are the some globel variables which are easily access in every functions 
+	man=add+sub;
+	return man;
+}
+//we use mainly use void to tell the we donot the return value of the functions.
+
+void lum(){
+	cout<<"enter a number"<<endl;
+	cin>>sam;
+	cout<<"enter a number 2"<<endl;
+	cin>>local;
+	saq(sam, local);
+//we use premeters here value here because we donot know the return value.
+	
+}
+int fox(){
+ for( nid=1; nid<=3; nid++  )	
+{	lum();
+}
+	for(kis=1; kis<=3; kis++)
+	
+	
+return 0;
+}
+
+
+
+int main(){
+	fox();
+	//we call only fox() functions here because we put all the program i loops
+	cout<<" the sum is "<<man;
+	
+}
+// the program end here
